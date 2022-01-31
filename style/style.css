@@ -1,0 +1,117 @@
+.page{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #2A2C2F;
+    max-width: 1280px;
+    
+    @font-face {
+        font-family: 'Inter';
+        font-style:  thin;
+        font-weight: 100;
+        font-display: swap;
+        src: url("./fonts/inter-web/Inter-Thin.woff2?v=3.19") format("woff2"),
+        url("Inter-Thin.woff?v=3.19") format("woff");
+    }
+    @font-face {
+        font-family: 'Inter';
+        font-style:  extraLight;
+        font-weight: 200;
+        font-display: swap;
+        src: url("Inter-ExtraLight.woff2?v=3.19") format("woff2"),
+        url("Inter-ExtraLight.woff?v=3.19") format("woff");
+    }
+    @font-face {
+        font-family: 'Inter';
+        font-style:  light;
+        font-weight: 300;
+        font-display: swap;
+        src: url("Inter-Light.woff2?v=3.19") format("woff2"),
+        url("Inter-Light.woff?v=3.19") format("woff");
+    }
+  
+    @font-face {
+        font-family: 'Inter';
+        font-style:  regular;
+        font-weight: 400;
+        font-display: swap;
+        src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+        url("Inter-Regular.woff?v=3.19") format("woff");
+    }
+      
+    @font-face {
+        font-family: 'Inter';
+        font-style:  medium;
+        font-weight: 500;
+        font-display: swap;
+        src: url("Inter-Medium.woff2?v=3.19") format("woff2"),
+        url("Inter-Medium.woff?v=3.19") format("woff");
+    }
+
+    @font-face {
+        font-family: 'Inter';
+        font-style:  semiBold;
+        font-weight: 600;
+        font-display: swap;
+        src: url("Inter-SemiBold.woff2?v=3.19") format("woff2"),
+        url("Inter-SemiBold.woff?v=3.19") format("woff");
+    }
+      
+    @font-face {
+        font-family: 'Inter';
+        font-style:  bold;
+        font-weight: 700;
+        font-display: swap;
+        src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+        url("Inter-Bold.woff?v=3.19") format("woff");
+    }
+      
+    @font-face {
+        font-family: 'Inter';
+        font-style:  extraBold;
+        font-weight: 800;
+        font-display: swap;
+        src: url("Inter-ExtraBold.woff2?v=3.19") format("woff2"),
+        url("Inter-ExtraBold.woff?v=3.19") format("woff");
+    }
+      
+    @font-face {
+        font-family: 'Inter';
+        font-style:  black;
+        font-weight: 900;
+        font-display: swap;
+        src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+        url("Inter-Black.woff?v=3.19") format("woff");
+    }
+}
+
+.header{
+    max-width: 1184px;
+    height: 52px;
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 28px;
+}
+
+.logo{
+    margin: 0;
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang{
+    margin: 0;
+}
+
+.header__lang-link{
+    margin: 0;
+    font-family: "Inter";
+    font-style: regular;
+    font-size: 24px;
+    margin-right: 18px;
+    color: white;
+    text-decoration: none;
+}
