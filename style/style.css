@@ -2,7 +2,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
     background-color: #2A2C2F;
     max-width: 1280px;
     
@@ -90,14 +90,15 @@
     max-width: 1184px;
     height: 52px;
     display: flex;
-
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
     margin: 0;
     padding-top: 28px;
 }
 
 .logo{
-    margin: 0;
+
     width: 176px;
     height: 52px;
 }
@@ -107,11 +108,17 @@
 }
 
 .header__lang-link{
-    margin: 0;
-    font-family: "Inter";
+    margin: 0 45px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: regular;
     font-size: 24px;
     margin-right: 18px;
     color: white;
     text-decoration: none;
+}
+.header__lang-link:last-of-type{
+    margin: 0;
+}
+.header__lang-link:hover, .header__lang-link:visited{
+    text-decoration: underline;
 }
