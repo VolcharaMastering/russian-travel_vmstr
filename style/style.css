@@ -169,6 +169,13 @@
     max-height: 637px;
     position: relative;
     box-sizing: border-box;
+
+    border: 2px solid green;
+}
+@media (max-width: 1024px){
+    .lead__images{
+        max-width: 928px;
+    }
 }
 .lead__image{
     width: 100%;
@@ -191,11 +198,23 @@
 }
 
 .intro{
-    max-width: 690px;
+/*    max-width: 690px;
     color: white;
+    box-sizing: border-box;*/
+    max-width: 984px;
     box-sizing: border-box;
-    margin: 0 34.53% 0 11.56%;
+    color: white;
+    border: 2px solid yellowgreen;
 }
+.intro_position{
+    margin: 0 auto;
+}
+@media (max-width: 1024px){
+    .intro{
+        max-width: 928px;
+    }
+}
+
 .intro__title{
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -205,6 +224,7 @@
     margin: 0; 
 }
 .intro__text{
+    width: 70.12%;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 163%;
