@@ -8,57 +8,13 @@
 }   
 @font-face {
     font-family: 'Inter';
-    font-style:  thin;
-    font-weight: 100;
-    font-display: swap;
-    src: url("../fonts/inter-web/Inter-Thin.woff2") format("woff2"),
-    url("../fonts/inter-web/Inter-Thin.woff") format("woff");
-}
-    @font-face {
-    font-family: 'Inter';
-    font-style:  extraLight;
-    font-weight: 200;
-    font-display: swap;
-    src: url("../fonts/inter-web/Inter-ExtraLight.woff2") format("woff2"),
-    url("../fonts/inter-web/Inter-ExtraLight.woff") format("woff");
-}
-    @font-face {
-    font-family: 'Inter';
-    font-style:  light;
-    font-weight: 300;
-    font-display: swap;
-    src: url("../fonts/inter-web/Inter-Light.woff2") format("woff2"),
-    url("../fonts/inter-web/Inter-Light.woff") format("woff");
-}
-  
-    @font-face {
-    font-family: 'Inter';
     font-style:  regular;
     font-weight: 400;
     font-display: swap;
     src: url("../fonts/inter-web/Inter-Regular.woff2") format("woff2"),
     url("../fonts/inter-web/Inter-Regular.woff") format("woff");
 }
-      
-    @font-face {
-    font-family: 'Inter';
-    font-style:  medium;
-    font-weight: 500;
-    font-display: swap;
-    src: url("../fonts/inter-web/Inter-Medium.woff2") format("woff2"),
-    url("../fonts/inter-web/Inter-Medium.woff") format("woff");
-}
-
-    @font-face {
-    font-family: 'Inter';
-    font-style:  semiBold;
-    font-weight: 600;
-    font-display: swap;
-    src: url("../fonts/inter-web/Inter-SemiBold.woff2") format("woff2"),
-    url("../fonts/inter-web/Inter-SemiBold.woff") format("woff");
-}
-      
-    @font-face {
+@font-face {
     font-family: 'Inter';
     font-style:  bold;
     font-weight: 700;
@@ -67,16 +23,7 @@
     url("../fonts/inter-web/Inter-Bold.woff") format("woff");
 }
       
-    @font-face {
-    font-family: 'Inter';
-    font-style:  extraBold;
-    font-weight: 800;
-    font-display: swap;
-    src: url("../fonts/inter-web/Inter-ExtraBold.woff2") format("woff2"),
-    url("../fonts/inter-web/Inter-ExtraBold.woff") format("woff");
-}
-      
-    @font-face {
+@font-face {
     font-family: 'Inter';
     font-style:  black;
     font-weight: 900;
@@ -193,17 +140,16 @@
     line-height: 14px;
     color: white;
     font-size: 10px;
+    letter-spacing: 1.5px;
     align-self: flex-start;
     margin: 8px 0 0 0;
 }
 
 .intro{
-/*    max-width: 690px;
-    color: white;
-    box-sizing: border-box;*/
     max-width: 984px;
     box-sizing: border-box;
     color: white;
+
     border: 2px solid yellowgreen;
 }
 .intro_position{
@@ -221,7 +167,7 @@
     line-height: 58px;
     font-size: 54px;
     text-align: left;
-    margin: 0; 
+    margin: 92px 0 0; 
 }
 .intro__text{
     width: 70.12%;
@@ -230,7 +176,7 @@
     line-height: 163%;
     font-size: 16px;
     text-align: left;
-    margin: 0;
+    margin: 40px 0 0;
 }
 .intro__list{
     list-style-type: none;
@@ -238,7 +184,7 @@
     font-weight: 700;
     line-height: 18px;
     font-size: 12px;
-    margin: 0;
+    margin: 33px 0 92px;
     padding: 0;
 }
 .intro__row{
@@ -249,4 +195,18 @@
 .intro__list-number{
     font-weight: 400;
     margin: 0;
+}
+
+
+.photo-grid{
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 352px));
+    box-sizing: border-box;
+    gap: minmax(14px,16px);
+}
+.photo-grid__item{
+    width: auto;
+    object-fit: fill;
+    justify-content: space-between;
 }
