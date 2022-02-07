@@ -1,10 +1,12 @@
 .page{
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #2A2C2F;
     max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }   
 @font-face {
     font-family: 'Inter';
@@ -66,9 +68,14 @@
 .header__lang-link:last-of-type{
     margin: 0;
 }
-.header__lang-link:hover, .header__lang-link:visited{
+
+.header__lang-link_ru:hover, .header__lang-link_ru:focus{
     text-decoration: underline;
 }
+.header__lang-link_en:hover, .header__lang-link_en:focus{
+    text-decoration: underline;
+}
+
 
 .lead{
     width: 100%;
@@ -78,8 +85,6 @@
     align-items: center;
     margin: 0;
     padding-top: 56px;
-
-/*    border: 1px solid yellow;*/
 }
 
 .lead__title{
@@ -116,8 +121,6 @@
     max-height: 637px;
     position: relative;
     box-sizing: border-box;
-
-    border: 2px solid green;
 }
 @media (max-width: 1024px){
     .lead__images{
@@ -149,8 +152,6 @@
     max-width: 984px;
     box-sizing: border-box;
     color: white;
-
-    border: 2px solid yellowgreen;
 }
 .intro_position{
     margin: 0 auto;
@@ -287,6 +288,9 @@
     color: white;
     margin: 0;
 }
+.place__link:hover{
+    opacity: .8;
+}
 .place__text{
     margin: 0;
     align-self: start;
@@ -353,9 +357,47 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
-    color: #FFFFFF;
     margin: 32px 0 0;
 }
 .cover__link:hover .cover__overlay{
     opacity: .8;
 }
+
+.footer{
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.footer_position{
+    margin: 0 48px 24px;
+}
+.footer__menu{
+    width: 465px;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.footer__link{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+.footer__link:hover{
+    opacity: .8;
+}
+.copyright{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
