@@ -237,7 +237,11 @@
         padding: 0 23px;
     }
 }
-
+@media screen and (max-width: 425px){
+    .intro_position{
+        padding: 0 16px;
+    }
+}
 .intro__title{
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -251,7 +255,15 @@
         line-height: 53px;
     }
 }
-
+@media screen and (max-width: 425px){
+    .intro__title{
+        line-height: 35px;
+        font-size: 29px;
+        letter-spacing: 2px;
+        max-width: 250px;
+        margin: 66px 0 0;;
+    }
+}
 .intro__text{
     width: 70.12%;
     font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -290,6 +302,11 @@
         margin: 33px 0 88px;
     }
 }
+@media screen and (max-width: 425px){
+    .intro__list{
+        margin: 33px 0 61px;
+    }
+}
 .intro__row{
     display: flex;
     line-height: 18px;
@@ -309,6 +326,11 @@
 @media screen and (max-width: 800px){
     .photo-container{
         padding: 0 24px;
+    }
+}
+@media screen and (max-width: 425px){
+    .photo-container{
+        padding: 0 16px;
     }
 }
 .photo-grid{
@@ -331,7 +353,11 @@
         gap: 11.5px 16px;
     }
 }
-
+@media screen and (max-width: 425px){
+    .photo-grid{
+        gap: 7.7px;
+    }
+}
 .photo-grid__item{
     max-width: 100%;
     max-height: 98%;
@@ -513,7 +539,7 @@
         height: 550px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 880px) {
     .cover{
         width: 768px;
         height: 480px;
