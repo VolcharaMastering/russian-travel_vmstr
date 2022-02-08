@@ -86,7 +86,11 @@
     margin: 0;
     padding-top: 56px;
 }
-
+@media screen and (max-width: 1110px) {
+    .lead{
+        padding-top: 49px;
+    }
+}
 .lead__title{
     width: 720px;
     height: 200px;
@@ -109,7 +113,7 @@
     text-align: center;
     margin: 32px 0 64px 0;
 }
-@media (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .lead__subtitle{
         margin: 32px 0 56px 0;;
     }
@@ -122,7 +126,7 @@
     position: relative;
     box-sizing: border-box;
 }
-@media (max-width: 1024px){
+@media screen and (max-width: 1110px){
     .lead__images{
         max-width: 928px;
     }
@@ -153,14 +157,16 @@
     box-sizing: border-box;
     color: white;
 }
-.intro_position{
-    margin: 0 auto;
-}
-@media (max-width: 1024px){
+@media screen and (max-width: 1110px){
     .intro{
         max-width: 928px;
     }
 }
+
+.intro_position{
+    margin: 0 auto;
+}
+
 
 .intro__title{
     font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -179,6 +185,11 @@
     text-align: left;
     margin: 40px 0 0;
 }
+@media screen and (max-width: 1110px){
+    .intro__text{
+        width: 74%;
+    }
+}
 .intro__list{
     list-style-type: none;
     font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -188,6 +199,12 @@
     margin: 33px 0 91px;
     padding: 0;
 }
+@media screen and (max-width: 1110px){
+    .intro__list{
+        margin: 33px 0 91px;
+    }
+}
+
 .intro__row{
     display: flex;
     line-height: 18px;
@@ -214,11 +231,20 @@
     padding: 0;
     margin: 0;
 }
-
+@media screen and (max-width: 1110px){
+    .photo-grid{
+        gap: 10px 16px;
+    }
+}
 .photo-grid__item{
     max-width: 100%;
     max-height: 98%;
     margin: 0;
+}
+@media screen and (max-width: 1110px){
+    .photo-grid__item{
+        max-height: 98.5%;
+    }
 }
 .photo-grid__photo{
     width: 100%;
@@ -236,6 +262,13 @@
     padding-top: 12px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width: 1110px){
+    .places{
+        align-items: self-start;
+        padding-top: 13px;
+        padding-left: 48px;
+    }
+}
 
 .place{
     max-width: 984px;
@@ -244,9 +277,15 @@
     grid-auto-flow: dense;
     gap: 48px 20px;
     align-items: end;
-    box-sizing: border-box;
     margin: 0;
     padding-top: 76px;
+}
+@media screen and (max-width: 1110px){
+    .place{
+        max-width: 915px;
+        gap: 48px 35px;
+        padding-top: 76.5px;
+    }
 }
 @media screen and (max-width: 720px) {
     .place{
@@ -309,6 +348,18 @@
 .cover{
     width: 1184px;
     height: 740px;
+}
+@media screen and (max-width: 1210px) {
+    .cover{
+        width: 1100px;
+        height: 688px;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .cover{
+        width: 1024px;
+        height: 640px;
+    }
 }
 .cover_position{
     margin: 92px auto;
