@@ -1,0 +1,17 @@
+.footer__menu{
+    width: 465px;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: space-between;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+@media screen and (max-width: 680px) {
+    .footer__menu{
+        align-content: space-between;
+        grid-template-columns: 186px;
+        grid-template-rows: repeat(5,56px);
+        align-items: flex-start;
+    }
+}

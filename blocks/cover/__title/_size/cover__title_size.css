@@ -1,0 +1,8 @@
+.cover__title_size{
+    width: 560px;
+}
+@media screen and (max-width: 680px) {
+    .cover__title_size{
+        max-width: 250px;
+    }
+}

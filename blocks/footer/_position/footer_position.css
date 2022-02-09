@@ -1,0 +1,13 @@
+.footer_position{
+    margin: 0 48px 24px;
+}
+@media screen and (max-width: 800px) {
+    .footer_position{
+        margin: 0 24px 24px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .footer_position{
+        margin: 0 16px;
+    }
+}

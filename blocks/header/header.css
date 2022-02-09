@@ -1,0 +1,12 @@
+.header{
+    max-width: 1184px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 425px) {
+    .header{
+        height: 42px;
+    }
+}
