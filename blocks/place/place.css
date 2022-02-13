@@ -4,7 +4,7 @@
     grid-template-columns: repeat(2, minmax(320px,1fr));
     grid-auto-flow: dense;
     gap: 48px 20px;
-    align-items: end;
+    align-items: start;
     margin: 0;
     padding-top: 76px;
 }
@@ -23,7 +23,7 @@
 }
 @media screen and (max-width: 800px){
     .place{
-        gap: 42px 14px;
+        gap: 47px 14px;
     }
 }
 @media screen and (max-width: 720px) {
@@ -33,7 +33,7 @@
 }
 @media screen and (max-width: 425px){
     .place{
-        padding-top: 47px;
-        gap: 32px;
+        padding-top: 48px;
+        gap: 30px;
     }
 }

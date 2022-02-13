@@ -44,11 +44,3 @@
         height: 200px;
     }
 }
-.cover_position{
-    margin: 92px auto;
-}
-@media screen and (max-width: 425px) {
-    .cover_position{
-        margin: 66px auto 64px;
-    }
-}

@@ -9,7 +9,6 @@
 @media screen and (max-width: 800px) {
     .place__url-heading{
         line-height: 12px;
-        padding-bottom: 9px;
     }
 }
 @media screen and (max-width: 425px) {

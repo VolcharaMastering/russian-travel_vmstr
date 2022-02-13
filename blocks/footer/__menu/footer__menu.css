@@ -9,6 +9,7 @@
 }
 @media screen and (max-width: 680px) {
     .footer__menu{
+        max-width: 200px;
         align-content: space-between;
         grid-template-columns: 186px;
         grid-template-rows: repeat(5,56px);
